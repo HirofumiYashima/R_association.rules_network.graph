@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_support" for="node" attr.name="support" attr.type="double"/>
+  <key id="v_confidence" for="node" attr.name="confidence" attr.type="double"/>
+  <key id="v_lift" for="node" attr.name="lift" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">1</data>
+      <data key="v_label">income=$0-$40,000</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">4</data>
+      <data key="v_label">sex=female</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">10</data>
+      <data key="v_label">age=14-34</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">12</data>
+      <data key="v_label">education=no college graduate</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">24</data>
+      <data key="v_label">years in bay area=10+</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">25</data>
+      <data key="v_label">dual incomes=not married</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">28</data>
+      <data key="v_label">number in household=1</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">30</data>
+      <data key="v_label">number of children=0</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">35</data>
+      <data key="v_label">type of home=house</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">46</data>
+      <data key="v_label">ethnic classification=white</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">48</data>
+      <data key="v_label">language in home=english</data>
+      <data key="v_support">0.912885</data>
+      <data key="v_confidence">0.912885</data>
+      <data key="v_lift">1</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">r1</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.512216</data>
+      <data key="v_confidence">0.924652</data>
+      <data key="v_lift">1.01289</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">r2</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.524869</data>
+      <data key="v_confidence">0.896646</data>
+      <data key="v_lift">0.982211</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">r3</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.544648</data>
+      <data key="v_confidence">0.912969</data>
+      <data key="v_lift">1.00009</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">r4</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.542612</data>
+      <data key="v_confidence">0.906903</data>
+      <data key="v_lift">0.993447</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">r5</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.553229</data>
+      <data key="v_confidence">0.889616</data>
+      <data key="v_lift">1.2859</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">r6</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.580134</data>
+      <data key="v_confidence">0.932881</data>
+      <data key="v_lift">1.0219</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">r7</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.501891</data>
+      <data key="v_confidence">0.806308</data>
+      <data key="v_lift">1.14336</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">r8</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.557882</data>
+      <data key="v_confidence">0.896262</data>
+      <data key="v_lift">0.98179</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">r9</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.601367</data>
+      <data key="v_confidence">0.930049</data>
+      <data key="v_lift">1.0188</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">r10</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.65954</data>
+      <data key="v_confidence">0.984799</data>
+      <data key="v_lift">1.07878</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">r11</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.649506</data>
+      <data key="v_confidence">0.938827</data>
+      <data key="v_lift">1.02842</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">r12</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.63438</data>
+      <data key="v_confidence">0.899567</data>
+      <data key="v_lift">0.985411</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">r13</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.521379</data>
+      <data key="v_confidence">0.942429</data>
+      <data key="v_lift">1.03236</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">r14</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.521379</data>
+      <data key="v_confidence">0.898721</data>
+      <data key="v_lift">1.29906</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">r15</data>
+      <data key="v_label"></data>
+      <data key="v_support">0.521379</data>
+      <data key="v_confidence">0.802732</data>
+      <data key="v_lift">1.29083</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">r16</data>
+      <data key="v_label"></data>
+    </node>
+    <edge source="n1" target="n12">
+    </edge>
+    <edge source="n2" target="n13">
+    </edge>
+    <edge source="n8" target="n14">
+    </edge>
+    <edge source="n5" target="n15">
+    </edge>
+    <edge source="n7" target="n16">
+    </edge>
+    <edge source="n7" target="n17">
+    </edge>
+    <edge source="n0" target="n18">
+    </edge>
+    <edge source="n0" target="n19">
+    </edge>
+    <edge source="n4" target="n20">
+    </edge>
+    <edge source="n9" target="n21">
+    </edge>
+    <edge source="n6" target="n22">
+    </edge>
+    <edge source="n3" target="n23">
+    </edge>
+    <edge source="n6" target="n24">
+    </edge>
+    <edge source="n7" target="n24">
+    </edge>
+    <edge source="n7" target="n25">
+    </edge>
+    <edge source="n10" target="n25">
+    </edge>
+    <edge source="n6" target="n26">
+    </edge>
+    <edge source="n10" target="n26">
+    </edge>
+    <edge source="n11" target="n10">
+    </edge>
+    <edge source="n12" target="n10">
+    </edge>
+    <edge source="n13" target="n10">
+    </edge>
+    <edge source="n14" target="n10">
+    </edge>
+    <edge source="n15" target="n10">
+    </edge>
+    <edge source="n16" target="n6">
+    </edge>
+    <edge source="n17" target="n10">
+    </edge>
+    <edge source="n18" target="n3">
+    </edge>
+    <edge source="n19" target="n10">
+    </edge>
+    <edge source="n20" target="n10">
+    </edge>
+    <edge source="n21" target="n10">
+    </edge>
+    <edge source="n22" target="n10">
+    </edge>
+    <edge source="n23" target="n10">
+    </edge>
+    <edge source="n24" target="n10">
+    </edge>
+    <edge source="n25" target="n6">
+    </edge>
+    <edge source="n26" target="n7">
+    </edge>
+  </graph>
+</graphml>

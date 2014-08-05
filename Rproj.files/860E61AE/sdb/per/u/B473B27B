@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"graphML.file.output.code.R\"\nauthor: \"HirofumiYashima\"\ndate: \"Tuesday, August 05, 2014\"\noutput: html_document\n---\n\n```{r, echo=TRUE, error=FALSE}\n# load packages\nrequire(arules)\nrequire(arulesViz)\nrequire(rgexf)\n\n# load data\ndata(Income)\n```\n\n```{r, echo=TRUE, error=FALSE}\n\n# implement association rule analysis from loaded data \"Income\"\ndata.ap <- apriori(Income, parameter=list(support=0.5))\n\n# 16 association rules have been detected\n# plot network graph with using plot() function of {arulesViz} packages and save a graph as igraph class object\ngraph.by.igraph <- plot(data.ap, method=\"graph\", control=list(type=\"items\",cex=0.6),margin=-0.1)\n\n```\n\n\n```{r, echo=TRUE, error=FALSE}\n\nprint(class(graph.by.igraph))  # igraph class\n\n```\n\n\n```{r, echo=TRUE, error=FALSE}\n# convert igraph class object into graphML file with using write.graph() function, which consists {rgexf} package\nwrite.graph(graph.by.igraph, \"association.rules.2.graphml\", format=\"graphml\")\n\n# Start network graph generating software \"Gephi\" to import graphML file\n# Generate network graph ( set  parameter \"support\" to node size, parameter \"lift\" to node color )\n# Then, you can obtain almost same network graph as the one which you gained from R's {arulesViz} plot() function\n\n```",
+    "created" : 1407225408523.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "4045002515",
+    "id" : "B473B27B",
+    "lastKnownWriteTime" : 162422768,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
